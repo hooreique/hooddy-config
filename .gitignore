@@ -1,0 +1,7 @@
+# Hooddy runtime state and switch lock
+/.switch/
+/.lock
+
+# Nix build output links
+/result
+/result-*
