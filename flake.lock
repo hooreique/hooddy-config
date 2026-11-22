@@ -97,11 +97,11 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1795306167,
-        "narHash": "sha256-ndX0PuOcJmiU4L+E38FPKcDWHETxeC7W3DOsynf36Dc=",
+        "lastModified": 1795307585,
+        "narHash": "sha256-Bx/mChMWKKRtzPNox38TGeHVRFcGn9ZQClmIvhLSPqA=",
         "owner": "hooreique",
         "repo": "hooddy",
-        "rev": "738bb9a9021dd3712259f4ddf372ec08d03c76b1",
+        "rev": "65f5186081f642992eceed413359f84ce392abd4",
         "type": "github"
       },
       "original": {

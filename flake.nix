@@ -20,10 +20,16 @@
       hooddyConfigurations.default = hooddy.lib.hooddyConfiguration {
         system = "aarch64-linux";
         modules = [
+          {
+            hooddy.httpPort = 8080;
+            hooddy.httpsPort = 8443;
+          }
           commut.hooddyModules.default
+          ./commut.nix
           bukupan.hooddyModules.default
+          ./bukupan.nix
           buku-journal.hooddyModules.default
-          ./hooddy.nix
+          ./buku-journal.nix
         ];
       };
     };
